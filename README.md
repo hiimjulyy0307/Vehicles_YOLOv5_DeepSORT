@@ -26,11 +26,11 @@ Im using cudnn 11.6 so
 ## Setting file track!
 Make sure that you Run Virtual Environment before you run :D
 
-File Track.py detect + tracking and not counting 
-File Track2.py detect + tracking and counting vehicles using YOLOv5l.pt (you can changes version of YOLOv5 n s m l x)
-File Track3.py detect + tracking and counting vehicles using Custom training model (vietnamese version - base on yolov5s.pt)
+1. File Track.py detect + tracking and not counting 
+2. File Track2.py detect + tracking and counting vehicles using YOLOv5l.pt (you can changes version of YOLOv5 n s m l x)
+3. File Track3.py detect + tracking and counting vehicles using Custom training model (vietnamese version - base on yolov5s.pt)
 
-Can changes variable about yolo_model, deep_sort_model, source, ... from line 320 and up.
+4. Can changes variable about yolo_model, deep_sort_model, source, ... from line 320 and up.
 ```bash
     parser.add_argument('--yolo_model', nargs='+', type=str, default='yolov5l.pt', help='model.pt path(s)')
     parser.add_argument('--deep_sort_model', type=str, default='osnet_x0_25')
